@@ -13,15 +13,19 @@ module.exports = {
   description: 'A test for StatusBoard',
 
   orgs: [
-    'pkgjs'
+		// 'expressjs',
+		// 'pillarjs',
+		// 'jshttp'
   ],
 
-  projects: [
-    'nodejs/package-maintenance',
-    {
-      name: 'Express StatusBoard',
-      repo: 'expressjs/statusboard'
-    }
+	projects: [
+		'nodejs/nodejs.dev'
+		// 'pkgjs/statusboard',
+    // 'nodejs/package-maintenance',
+    // {
+    //   name: 'Express StatusBoard',
+    //   repo: 'expressjs/statusboard'
+    // }
   ],
 
   people: [
