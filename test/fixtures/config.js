@@ -1,27 +1,25 @@
-'use strict'
-const path = require('path')
+const path = require('path');
 
 module.exports = {
   db: path.join(__dirname, 'tmp', 'data.db'),
   baseUrl: '/statusboard',
   outputDirectory: path.join(__dirname, 'tmp'),
   github: {
-    token: process.env.GITHUB_TOKEN
+    token: process.env.GITHUB_TOKEN,
   },
 
   title: 'StatusBoard Test',
   description: 'A test for StatusBoard',
 
-  orgs: [
-    'pkgjs'
-  ],
+  orgs: ['expressjs', 'jshttp', 'pillarjs'],
 
   projects: [
-    'nodejs/package-maintenance',
-    {
-      name: 'Express StatusBoard',
-      repo: 'expressjs/statusboard'
-    }
+    // 'nodejs/nodejs.dev'
+    // 'nodejs/package-maintenance',
+    // {
+    //   name: 'Express StatusBoard',
+    //   repo: 'expressjs/statusboard'
+    // }
   ],
 
   people: [
@@ -31,7 +29,14 @@ module.exports = {
       website: 'http://www.github.com/wesleytodd',
       npmUsername: 'wesleytodd',
       githubUsername: 'wesleytodd',
-      twitterUsername: 'wesleytodd'
-    }
-  ]
-}
+      twitterUsername: 'wesleytodd',
+    },
+    {
+      name: 'Jon Church',
+      website: 'http://www.github.com/jonchurch',
+      npmUsername: 'jonchurch',
+      githubUsername: 'jonchurch',
+      twitterUsername: 'jonchurch',
+    },
+  ],
+};
